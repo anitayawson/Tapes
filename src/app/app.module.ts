@@ -9,6 +9,8 @@ import { AppComponent} from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
 
+import {HttpClientModule} from '@angular/common/http'
+
 @NgModule({
   declarations: [
     HeaderComponent,
@@ -21,7 +23,8 @@ import { ErrorPageComponent } from './error-page/error-page.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

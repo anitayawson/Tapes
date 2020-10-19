@@ -1,4 +1,38 @@
-p, h1 {
+.container {
+    background-image: url(../../assets/img/background1.jpg);
+    background-size: cover;
+    background-position:center ;
+    box-shadow:inset 0 0 0 2000px rgba(150, 90, 150, 0.3);
+    height: 90vh;
+    margin-bottom: 0;  
+}
+
+.intro{
+    color: white;
+    position: relative;
+    padding: 190px 50px 50px 50px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;    
+}
+
+.title {
+    margin-bottom: 15px;
+    font-size: 80px;
+}
+
+@media(max-width: 576px){
+    .container{
+    background-image: url(../../assets/img/background1.jpg);
+    background-size: cover;
+    background-position:center ;
+    box-shadow:inset 0 0 0 2000px rgba(150, 90, 150, 0.3);
+    height: 95vh;
+    margin-bottom: 0;
+    }
+
+    .title {
+        margin-bottom: 15px;
+        font-size: 50px;
+    }
 }

@@ -1,3 +1,17 @@
-.navbar-light {
-    background-color: yellow;
+.social-media {
+    position: relative;
+    left: 920px;
+}
+
+.social-media .fa{
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+@media (max-width: 576px){
+    .social-media{
+        position: relative;
+        left: 0px;
+        padding-top: 10px;
+    }
 }

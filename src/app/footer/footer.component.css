@@ -1,21 +1,13 @@
 p {
-    background-color: yellow;
+    color:gray;
+    /* opacity: 50%; */
     padding: 10px;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
-    margin: 0;
+    /* margin: 0; */
     bottom: 0;
     text-align: center;
-    margin-top: auto!important;
-}
-/* .mt-auto, .my-auto {
-    margin-top: auto!important;
+    position: fixed;
+    margin-top: 100px;
 }
 
-.pb-3, .py-3 {
-    padding-bottom: 1rem!important;
-}
-
-.pt-3, .py-3 {
-    padding-top: 1rem!important;
-} */
